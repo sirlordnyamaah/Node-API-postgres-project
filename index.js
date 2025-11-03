@@ -1,3 +1,7 @@
+require('dotenv').config()
+const express = require('express')
+// ... rest of your code
+
 const express = require('express')
 const bodyParser = require('body-parser')
 const db = require('./queries')
